@@ -2,7 +2,7 @@
 Just Study
 
 # Select Chatting Server
-## 채팅 서버 만들기
+## Select채팅 서버 만들기
 
 ----
 
