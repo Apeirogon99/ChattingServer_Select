@@ -1,8 +1,8 @@
 # ChattingServer_Select
 Just Study
 
-#, Select Chatting Server
-##, 채팅 서버 만들기
+# ,Select Chatting Server
+## ,채팅 서버 만들기
 
 ----
 
