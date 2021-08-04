@@ -18,6 +18,12 @@
     <ClInclude Include="CorePch.h">
       <Filter>Utils</Filter>
     </ClInclude>
+    <ClInclude Include="ServerMacro.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectServerCore.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ServerCore.cpp">
@@ -27,6 +33,9 @@
       <Filter>Utils</Filter>
     </ClCompile>
     <ClCompile Include="CorePch.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectServerCore.cpp">
       <Filter>Utils</Filter>
     </ClCompile>
   </ItemGroup>

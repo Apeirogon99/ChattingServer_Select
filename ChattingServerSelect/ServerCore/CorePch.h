@@ -1,5 +1,7 @@
 #pragma once
 
+#pragma comment(lib, "ws2_32.lib")
+
 //자료형
 #include "Types.h"
 
@@ -17,16 +19,13 @@
 #include <thread>
 #include <mutex>
 
-//윈도우소켓
-#include <winsock2.h>
-#include <mswsock.h>
-#include <ws2tcpip.h>
+#include "SelectServerCore.h"
 
 //IO
 #include <iostream>
 
+//매크로
+#include "ServerMacro.h"
+
 //Using namespace
 using namespace std;
-
-
-void HelloWorld();

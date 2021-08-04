@@ -157,6 +157,8 @@
   <ItemGroup>
     <ClInclude Include="CorePch.h" />
     <ClInclude Include="pch.h" />
+    <ClInclude Include="SelectServerCore.h" />
+    <ClInclude Include="ServerMacro.h" />
     <ClInclude Include="Types.h" />
   </ItemGroup>
   <ItemGroup>
@@ -167,6 +169,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="SelectServerCore.cpp" />
     <ClCompile Include="ServerCore.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
